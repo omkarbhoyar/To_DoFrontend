@@ -1,0 +1,101 @@
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  gap: 10px;
+}
+.filter-buttons button{
+  background-color:#24A3B4 ;
+  color: aliceblue;
+}
+
+.task-container {
+  margin-top: 20px;
+}
+.rightbutton{
+  align-items: center;
+  display: flex;
+}
+
+.task-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.task-title {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.task-actions {
+  display: flex;
+  align-items: center;
+}
+
+.task-actions button {
+  margin-left: 10px;
+}
+
+.task-actions-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(255, 0, 0);
+}
+h1 {
+  text-align: center;
+}
+
+
+.addbutton {
+  gap: 10px;
+  display: flex;
+  justify-content: right;
+
+}
+
+.full-width{
+  width: 100%;
+}
+.button-container {
+  
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    position: fixed; /* Fixes the buttons at the bottom */
+    bottom: 0;
+    width: 95.12%;
+    padding: 10px;
+    
+  
+} 
+  .btn {
+    background-color: #e20000; /* Update the button color */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .btn:hover {
+    background-color: #990000;
+  }

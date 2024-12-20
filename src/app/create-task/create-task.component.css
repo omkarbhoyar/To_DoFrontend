@@ -1,0 +1,19 @@
+.addbutton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .addbutton button{
+    width: 100%;
+    background-color:#24A3B4 ;
+    color: aliceblue;
+  }
+  .full-width {
+    width: 100%;
+  } 
+ 
+
+  h1 {
+    text-align: center;
+  }
+  
